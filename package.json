@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,6 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
+  "repository": "https://github.com/arsantiagolopez/instaccounts-instafeed",
   "name": "instaccounts-instafeed",
   "author": "Alexander Santiago",
   "image": "https://www.citypng.com/public/uploads/preview/-11590310104ndbzw5figp.png",
