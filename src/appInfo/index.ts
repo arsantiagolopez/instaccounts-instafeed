@@ -5,11 +5,10 @@ interface AppInfo {
 }
 
 const appInfo: AppInfo = {
-  name: process.env.APP_NAME || "Your App's Name",
-  description: process.env.APP_DESCRIPTION || "Your app's description.",
+  name: 'Instafeed',
+  description: "Display all your accounts' posts.",
   image:
-    process.env.APP_IMAGE ||
-    'https://image-placeholder.com/images/social/instagram.png',
+    'https://www.citypng.com/public/uploads/preview/-11590310104ndbzw5figp.png',
 };
 
 export { appInfo };
