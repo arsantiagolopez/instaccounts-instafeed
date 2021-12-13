@@ -5,10 +5,10 @@ interface AppInfo {
 }
 
 const appInfo: AppInfo = {
-  name: 'Instafeed',
+  name: 'Instagram Feed',
   description: "Display all your accounts' posts.",
   image:
-    'https://www.citypng.com/public/uploads/preview/-11590310104ndbzw5figp.png',
+    'https://seeklogo.com/images/I/instagram-logo-3EDAAFAF47-seeklogo.com.png',
 };
 
 export { appInfo };

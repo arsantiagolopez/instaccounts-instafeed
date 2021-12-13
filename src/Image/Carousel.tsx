@@ -26,8 +26,7 @@ const Carousel: FC<Props> = ({ image, carouselImages }) => {
     <Flex {...styles.wrapper}>
       <Image
         src={carouselImages ? carouselImages[activeIndex] : image}
-        layout="fill"
-        objectFit="cover"
+        {...styles.image}
       />
 
       <Flex {...styles.actions}>
@@ -58,13 +57,12 @@ const styles: StyleProps = {
   wrapper: {
     position: 'relative',
     overflowX: 'hidden',
+    userSelect: 'none',
   },
-  aspect: {
-    minWidth: { base: '100vw', md: 'calc(100vw - 10vw - 10vw - 32vw)' },
-  },
-  skeleton: {
-    width: '100%',
-    height: '100%',
+  image: {
+    layout: 'fill',
+    objectFit: 'cover',
+    userSelect: 'none',
   },
   actions: {
     position: 'absolute',
